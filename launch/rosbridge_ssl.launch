@@ -1,0 +1,17 @@
+<launch>
+  <group ns="rosbridge_ws"> 
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+      <arg name="ssl" value="false" />
+      <arg name="port" value="9090" />
+    </include>
+  </group>
+  <group ns="rosbridge_wss"> 
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+      <arg name="ssl" value="true" />
+      <arg name="port" value="9443"/>
+      <arg name="certfile" value="$(find rosbridge_ssl)/certs/host.cert" />
+      <arg name="keyfile" value="$(find rosbridge_ssl)/certs/host.key" />
+      <arg name="authenticate" value="false" />
+    </include>
+  </group>
+</launch>
