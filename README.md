@@ -4,8 +4,7 @@
 ## catkin_ws
 Setup ROS Melodic and your catkin_ws if you have not done so.
 
-Install the required python 3 modules using pip3 or a virtualenv. Do not use Anaconda. Git clone this repository into src of your catkin_ws.
- ```
+```
 cd catkin_ws/src
 git clone https://github.com/NP-Robotics/rosbrige_ssl.git
 cd rosbrige_ssl
