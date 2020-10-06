@@ -40,7 +40,7 @@ For Chrome: Navigate to
 Settings -> Privacy and Security -> Security -> Manage certificates -> Authorities
 ```
 Click `Import`.
-Navigate to this file in your `catkin_ws` and import it.
+Navigate to this file in your `catkin_ws` and import it. If the `catkin_ws` is located in another device, import the file into the destination location of the web browser. 
 ```
 catkin_ws/src/rosbridge_ssl/certs/certs/rootCA.pem
 ```
