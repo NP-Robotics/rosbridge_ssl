@@ -6,7 +6,7 @@ Setup ROS Melodic and your catkin_ws if you have not done so.
 
 ```
 cd catkin_ws/src
-git clone https://github.com/NP-Robotics/rosbrige_ssl.git
+git clone https://github.com/NP-Robotics/rosbridge_ssl.git
 cd rosbrige_ssl
 ```
 `catkin_make` the package
